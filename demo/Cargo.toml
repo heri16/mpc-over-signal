@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 bls = { git = "https://github.com/ZenGo-X/multi-party-bls", branch = "main" }
-curv = { git = "https://github.com/ZenGo-X/curv", tag = "v0.6.1"}
+curv = { git = "https://github.com/ZenGo-X/curv", tag = "v0.6.1", features = ["num-bigint"] }
 round-based = "0.1.1"
 mpc-over-signal = { path = "../mpc-over-signal" }
 
